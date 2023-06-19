@@ -1,28 +1,8 @@
 .App {
   background-color: #282c34;
-  min-height: 100vh; 
+  min-height: 100vh;
+  position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.Container {
-  border: 10px solid green;
-  border-radius: 20%;
-  height: 80vh;
-  width: 90vh;
-  text-align: center;
-  background-color: rgb(61, 56, 56);
-}
-
-.Head {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 1%;
-}
-
-.mainImg {
-  border-radius: 50%;
-  max-width: 10%
+  align-items: top;
 }
