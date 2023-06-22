@@ -1,3 +1,4 @@
+import './head.css'
 import { useState, useEffect } from "react";
 import fetch from 'node-fetch';
 
@@ -13,21 +14,25 @@ export default function Head() {
   };
 
   useEffect (() => {
-    getImg();
+    getImg()
   }, []);
 
   return (
     <header>
-      <img 
-        className='mainImg' 
-        alt='profile img' 
-        src={img}
-        height={200}
-      />
-      <h1 className="Name">Akomi</h1>
+      <div className="head">
+        <img 
+          className='mainImg' 
+          alt='profile img' 
+          src={img}
+        />
+        <h1 className="Name">Akomi</h1>
+      </div>
       <p className='description'>
-        eros donec ac odio tempor orci dapibus ultrices in iaculis 
-        nunc sed augue lacus viverra vitae congue eu consequat ac
+        Hello, I am Akomi. I am a current college 
+        student majoring in the field of computer 
+        science. I am aspiring to become a talented
+        software engineer as development and 
+        creativity are great passions of mine.
       </p>
     </header>
   )

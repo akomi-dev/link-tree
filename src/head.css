@@ -1,0 +1,18 @@
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-shadow: 2px 2px 5px #4444dd;
+    padding: 1vw 0;
+}
+
+.mainImg {
+    border-radius: 50%;
+    height: 50px;
+    box-shadow: 2px 2px 5px #4444dd;
+}
+
+.description {
+    padding: 1vw 0;
+    font-size: 20px;
+}

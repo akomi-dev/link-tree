@@ -1,0 +1,27 @@
+.grid-link-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-link {
+    border: 2px solid red;
+    width: 150px;
+    height: 40px;
+    margin: 15px 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 100%;
+
+    /* Center text within div */
+    /* only god knows why this is the only attr
+    that is centering the text */
+    display: grid;
+    align-items: center;
+    justify-self: center;
+}
